@@ -11,5 +11,5 @@ var lives = 10;//player has 10 guesses
     else {
         document.getElementById("para1").innerHTML = "Press Spacebar to try again";
         var x = event.keyCode;
-        if(x==32)
+        if(x==32);
     }
