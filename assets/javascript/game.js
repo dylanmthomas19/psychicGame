@@ -25,11 +25,11 @@ console.log(lives)
             lives--
             document.getElementById("para1").innerText="Not that one! You have "+lives+" guesses left..."
         
-        }
+        
         if (lives == 0){
             loss++
             document.getElementById("lose").innerText=loss;
             document.getElementById("para1").innerText="You lost! Press Spacebar to try again"
             return;
-        }
+        }}
         })
